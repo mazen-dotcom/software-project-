@@ -1,1 +1,19 @@
-T
+				Ascending order Program
+The program purpose is to arrange number in ascending order 
+Will explain the code step by step
+1.	First we will ask the user to input the numbers he wants to arrange 
+
+
+We will make array of type integer and make the user choose the size of array by doing for loop the user will be able to input the numbers
+2.	We will create class of name Sorting and define the attributes and the constructor
+3.	We Will Consider the first number the user put is already sorted and will begin our count and will use a for loop begin from the second number until I is greater size and inc 1 by one after every execution and assign that number in variable called temp and assign value of I in variable called j
+
+
+4.We will do a while loop to check two conditions the
+     4.1       first by making j>0 Be cause if j=0 that means we have checked the number in index test[i] with every element on its left
+4.2	    Second condition we will check the swap condition if number in index test[j-1] is less than the number in on temp  we will do the swap 
+4.3	Then we will decrease j by one so that helps to compare every number on left side of the number inside the temp
+4.4	And last when we find the appropriate position we will put the number in temp in that position 
+ 
+5.Finally we will do another for but this time it will output the numbers the user entered in their right position 
+
